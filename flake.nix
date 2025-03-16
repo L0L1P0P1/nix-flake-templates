@@ -21,5 +21,7 @@
 			path = ./raw;
 			description = "A very basic flake";
 		};
+
+		defaultTemplate = self.raw;
 	};
 }
