@@ -28,9 +28,9 @@
         LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib";
         inputsFrom = [ ];
         shellHook = ''
-          				# Uncomment if you use zsh and want to activate poetry instantly
-          				# zsh -c "source "$(poetry env info --path)/bin/activate"; zsh"
-          			'';
+          # Uncomment if you use zsh and want to activate poetry instantly
+          # zsh -c "source "$(poetry env info --path)/bin/activate"; zsh"
+        '';
       };
     };
 }

@@ -31,9 +31,9 @@
 
         LD_LIBRARY_PATH = "${pkgs.stdenv.cc.cc.lib}/lib";
         shellHook = ''
-          				# Uncomment if you use zsh
-          				# zsh
-          				'';
+          # Uncomment if you use zsh
+          # zsh
+        '';
       };
     };
 }

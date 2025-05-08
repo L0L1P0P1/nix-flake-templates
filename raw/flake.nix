@@ -26,9 +26,9 @@
         ];
 
         shellHook = ''
-          				# Uncomment if you use zsh
-          				# zsh
-          			'';
+          # Uncomment if you use zsh
+          # zsh
+        '';
       };
     };
 }
